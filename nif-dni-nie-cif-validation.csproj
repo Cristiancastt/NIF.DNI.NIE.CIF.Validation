@@ -8,11 +8,9 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
 		<!-- Información del paquete NuGet -->
 		<PackageId>NIF.DNI.NIE.CIF.Validation</PackageId>
-		<Version>1.0.0</Version>
 		<Authors>Cristian Arana Castiñeiras</Authors>
 		<PackageIcon>icon.png</PackageIcon>
 		<RequireLicenseAcceptance>false</RequireLicenseAcceptance>
@@ -20,6 +18,7 @@
 		<PackageTags>NIF;DNI;NIE;CIF;validation;Spain;Spanish;identity;tax;document;verification;validacion;España;identificacion;fiscal</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/Cristiancastt/NIF.DNI.NIE.CIF.Validation</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 
@@ -27,5 +26,18 @@
 		<None Include="icon.png" Pack="true" PackagePath="" />
 		<None Include="README.md" Pack="true" PackagePath="" />
 	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="Tests\**" />
+		<EmbeddedResource Remove="Tests\**" />
+		<None Remove="Tests\**" />
+	</ItemGroup>
+
+	<!-- Release notes: inyecta el contenido de RELEASE-NOTES.txt en la descripción del paquete -->
+	<Target Name="PrepareReleaseNotes" BeforeTargets="GenerateNuspec" Condition="Exists('$(MSBuildProjectDirectory)/RELEASE-NOTES.txt')">
+		<PropertyGroup>
+			<PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/RELEASE-NOTES.txt"))</PackageReleaseNotes>
+		</PropertyGroup>
+	</Target>
 
 </Project>
