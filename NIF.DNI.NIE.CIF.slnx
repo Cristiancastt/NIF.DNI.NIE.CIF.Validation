@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="nif-dni-nie-cif-validation.csproj" />
+  <Project Path="Validador/Validador.csproj" />
   <Project Path="Tests/Tests.csproj" />
 </Solution>

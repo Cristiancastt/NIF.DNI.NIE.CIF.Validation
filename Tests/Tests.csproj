@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\nif-dni-nie-cif-validation.csproj" />
+    <ProjectReference Include="..\Validador\Validador.csproj" />
   </ItemGroup>
 
 </Project>
