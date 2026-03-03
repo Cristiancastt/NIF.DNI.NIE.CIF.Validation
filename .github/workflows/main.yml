@@ -36,11 +36,11 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 6.0.x
+          dotnet-version: 10.0.x
 
       - name: Build and Pack NuGet package
         run: |
-          dotnet pack src/services/Florage.Shared/Florage.Shared.csproj \
+          dotnet pack nif-dni-nie-cif-validation.csproj \
             -c Release \
             -p:Version=${{ steps.gitversion.outputs.SemVer }} \
             -o ./artifacts
@@ -66,16 +66,16 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 6.0.x
+          dotnet-version: 10.0.x
 
       - name: Add GitHub NuGet source
         run: |
           dotnet nuget add source \
-            --username yourusername \
+            --username Cristiancastt \
             --password ${{ secrets.NUGET_PACKAGE_TOKEN }} \
             --store-password-in-clear-text \
             --name github \
-            https://nuget.pkg.github.com/yourusername/index.json
+            https://nuget.pkg.github.com/Cristiancastt/index.json
 
       - name: Push package to GitHub Packages
         if: needs.build.outputs.CommitsSinceVersionSource > 0
