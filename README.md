@@ -1,5 +1,12 @@
 # NIF-DNI-NIE-CIF Validation
 
+[![NuGet Version](https://img.shields.io/nuget/v/NIF.DNI.NIE.CIF.Validation?style=flat&logo=nuget&label=NuGet&color=004880)](https://www.nuget.org/packages/NIF.DNI.NIE.CIF.Validation)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/NIF.DNI.NIE.CIF.Validation?style=flat&logo=nuget&label=Downloads&color=004880)](https://www.nuget.org/packages/NIF.DNI.NIE.CIF.Validation)
+[![GitHub Build](https://img.shields.io/github/actions/workflow/status/Cristiancastt/NIF.DNI.NIE.CIF.Validation/main.yml?branch=master&style=flat&logo=github&label=Build)](https://github.com/Cristiancastt/NIF.DNI.NIE.CIF.Validation/actions/workflows/main.yml)
+[![License MIT](https://img.shields.io/github/license/Cristiancastt/NIF.DNI.NIE.CIF.Validation?style=flat&label=License&color=yellow)](https://github.com/Cristiancastt/NIF.DNI.NIE.CIF.Validation/blob/master/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/Cristiancastt/NIF.DNI.NIE.CIF.Validation?style=flat&logo=github&label=Stars)](https://github.com/Cristiancastt/NIF.DNI.NIE.CIF.Validation/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/Cristiancastt/NIF.DNI.NIE.CIF.Validation?style=flat&logo=github&label=Issues)](https://github.com/Cristiancastt/NIF.DNI.NIE.CIF.Validation/issues)
+
 Biblioteca .NET para validar números de identificación españoles: **NIF**, **DNI**, **NIE** y **CIF**.
 
 Proporciona métodos síncronos, asíncronos, individuales y por lotes para verificar el formato y los dígitos de control de documentos de identificación fiscal y personal de España.
@@ -24,7 +31,14 @@ Proporciona métodos síncronos, asíncronos, individuales y por lotes para veri
 
 ## Instalación
 
+### Desde NuGet.org
 ```bash
+dotnet add package NIF.DNI.NIE.CIF.Validation
+```
+
+### Desde GitHub Packages
+```bash
+dotnet nuget add source https://nuget.pkg.github.com/Cristiancastt/index.json --name github --username TU_USUARIO --password TU_GITHUB_TOKEN
 dotnet add package NIF.DNI.NIE.CIF.Validation
 ```
 
