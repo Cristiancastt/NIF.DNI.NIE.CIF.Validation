@@ -1,6 +1,6 @@
 using System.Collections.Frozen;
 
-namespace nif_dni_nie_cif_validation.Modelos
+namespace NIF.DNI.NIE.CIF.Validation.Modelos
 {
     /// <summary>
     /// Representa el resultado de la validación de un lote (conjunto) de documentos.

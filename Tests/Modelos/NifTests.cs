@@ -1,8 +1,8 @@
 using FluentAssertions;
-using nif_dni_nie_cif_validation.Excepciones;
-using nif_dni_nie_cif_validation.Modelos;
+using NIF.DNI.NIE.CIF.Validation.Excepciones;
+using NIF.DNI.NIE.CIF.Validation.Modelos;
 
-namespace nif_dni_nie_cif_validation.Tests.Modelos
+namespace NIF.DNI.NIE.CIF.Validation.Tests.Modelos
 {
     /// <summary>
     /// Tests completos para el Value Object Nif.

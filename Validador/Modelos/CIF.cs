@@ -1,7 +1,7 @@
-﻿using nif_dni_nie_cif_validation.Excepciones;
-using nif_dni_nie_cif_validation.Utiles;
+﻿using NIF.DNI.NIE.CIF.Validation.Excepciones;
+using NIF.DNI.NIE.CIF.Validation.Utiles;
 
-namespace nif_dni_nie_cif_validation.Modelos
+namespace NIF.DNI.NIE.CIF.Validation.Modelos
 {
     /// <summary>
     /// Objeto de valor (Value Object) que representa un CIF (Código de Identificación Fiscal) español válido.

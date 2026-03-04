@@ -1,4 +1,4 @@
-namespace nif_dni_nie_cif_validation.Excepciones
+namespace NIF.DNI.NIE.CIF.Validation.Excepciones
 {
     /// <summary>
     /// Excepción que se lanza cuando un documento de identificación no es válido.

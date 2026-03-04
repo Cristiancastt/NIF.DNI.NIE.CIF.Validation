@@ -1,7 +1,7 @@
 using System.Buffers;
 using System.Runtime.CompilerServices;
 
-namespace nif_dni_nie_cif_validation.Utiles
+namespace NIF.DNI.NIE.CIF.Validation.Utiles
 {
     /// <summary>
     /// Clase estática con métodos auxiliares para la validación y manipulación

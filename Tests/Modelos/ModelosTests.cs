@@ -1,7 +1,7 @@
 using FluentAssertions;
-using nif_dni_nie_cif_validation.Modelos;
+using NIF.DNI.NIE.CIF.Validation.Modelos;
 
-namespace nif_dni_nie_cif_validation.Tests.Modelos
+namespace NIF.DNI.NIE.CIF.Validation.Tests.Modelos
 {
     /// <summary>
     /// Tests para ResultadoValidacion, ErrorValidacion, DocumentoValidado, ResultadoValidacionLote.

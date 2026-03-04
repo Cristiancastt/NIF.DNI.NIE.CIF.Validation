@@ -1,8 +1,8 @@
 using FluentAssertions;
-using nif_dni_nie_cif_validation.Excepciones;
-using nif_dni_nie_cif_validation.Modelos;
+using NIF.DNI.NIE.CIF.Validation.Excepciones;
+using NIF.DNI.NIE.CIF.Validation.Modelos;
 
-namespace nif_dni_nie_cif_validation.Tests.Excepciones
+namespace NIF.DNI.NIE.CIF.Validation.Tests.Excepciones
 {
     /// <summary>
     /// Tests para DocumentoNoValidoException y sus factories.

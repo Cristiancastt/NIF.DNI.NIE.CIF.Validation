@@ -1,4 +1,4 @@
-﻿namespace nif_dni_nie_cif_validation.Modelos
+﻿namespace NIF.DNI.NIE.CIF.Validation.Modelos
 {
     /// <summary>
     /// Clase base abstracta para objetos de valor (Value Objects) de documentos de identificación.

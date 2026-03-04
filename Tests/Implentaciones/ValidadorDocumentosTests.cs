@@ -1,10 +1,10 @@
 using FluentAssertions;
-using nif_dni_nie_cif_validation.Excepciones;
-using nif_dni_nie_cif_validation.Implentaciones;
-using nif_dni_nie_cif_validation.Interfaces;
-using nif_dni_nie_cif_validation.Modelos;
+using NIF.DNI.NIE.CIF.Validation.Excepciones;
+using NIF.DNI.NIE.CIF.Validation.Implentaciones;
+using NIF.DNI.NIE.CIF.Validation.Interfaces;
+using NIF.DNI.NIE.CIF.Validation.Modelos;
 
-namespace nif_dni_nie_cif_validation.Tests.Implentaciones
+namespace NIF.DNI.NIE.CIF.Validation.Tests.Implentaciones
 {
     /// <summary>
     /// Tests completos para ValidadorDocumentos — métodos síncronos:

@@ -1,6 +1,6 @@
-﻿using nif_dni_nie_cif_validation.Modelos;
+﻿using NIF.DNI.NIE.CIF.Validation.Modelos;
 
-namespace nif_dni_nie_cif_validation.Interfaces
+namespace NIF.DNI.NIE.CIF.Validation.Interfaces
 {
     /// <summary>
     /// Interfaz principal del servicio de validación de documentos de identificación españoles.

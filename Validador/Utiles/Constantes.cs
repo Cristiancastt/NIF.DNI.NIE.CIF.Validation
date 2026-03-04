@@ -1,7 +1,7 @@
 using System.Buffers;
 using System.Collections.Frozen;
 
-namespace nif_dni_nie_cif_validation.Utiles
+namespace NIF.DNI.NIE.CIF.Validation.Utiles
 {
     /// <summary>
     /// Constantes utilizadas en la validación de documentos de identificación españoles.

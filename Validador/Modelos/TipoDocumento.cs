@@ -1,4 +1,4 @@
-namespace nif_dni_nie_cif_validation.Modelos
+namespace NIF.DNI.NIE.CIF.Validation.Modelos
 {
     /// <summary>
     /// Enumeración que representa los tipos de documentos de identificación fiscal y personal en España.

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Concurrent;
-using nif_dni_nie_cif_validation.Excepciones;
-using nif_dni_nie_cif_validation.Interfaces;
-using nif_dni_nie_cif_validation.Modelos;
-using nif_dni_nie_cif_validation.Utiles;
+using NIF.DNI.NIE.CIF.Validation.Excepciones;
+using NIF.DNI.NIE.CIF.Validation.Interfaces;
+using NIF.DNI.NIE.CIF.Validation.Modelos;
+using NIF.DNI.NIE.CIF.Validation.Utiles;
 
-namespace nif_dni_nie_cif_validation.Implentaciones
+namespace NIF.DNI.NIE.CIF.Validation.Implentaciones
 {
     /// <summary>
     /// Implementación completa del servicio de validación de documentos de identificación españoles.
